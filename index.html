@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title> Baskin-Robbins</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Nav bar -->
+<nav class="navbar navbar-expand-lg  fixed-top ">
+    <div class="container-fluid">
+      <a class=" navbar-brand "href="#carouselExampleCaptions"><img src="/BR-images/logo-og1.jpg"height-.5 alt=" Baskin Robbins "></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#carouselExampleCaptions">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#new">Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Order Now
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#new">New Launch</a></li>
+              <li><a class="dropdown-item" href="#scoops">Scoops</a></li>
+              <li><a class="dropdown-item" href="#shakes">Shakes</a></li>
+              <li><a class="dropdown-item" href="#sundaes">Sundaes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="#location">Location</a>
+          </li>
+          <button type="button" class="btn btn-primary position-relative" id="cart">
+            Cart 
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              4+
+              <span class="visually-hidden">cart items</span>
+            </span>
+          </button>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-info" type="submit">Search</button>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Nav bar ends here -->
+
+  <!-- Carousal -->
+
+  <div  id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators ">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/BR-images/bg 20.webp" class=" slide w-100" alt="BRimage">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Dig Into Our History</h2>
+          <p>Brought to India in 1993, Baskin Robbins has cemented its place as India’s much loved ice cream brand.
+            We constantly endeavor to maintain highest standards of quality. Baskin Robbins today operates more than 800+ exclusive Ice Cream Parlours across over 230 cities, making it amongst the largest exclusive ice cream retail chains in India.
+            Its portfolio of 31 high quality international and Indian flavors are made with cows milk and are 100% vegetarian. These represent diverse taste profiles and cater to the needs of millions of customers.
+            
+            Baskin Robbins was brought to India through a joint venture with the Graviss Group- a pioneer in the F&B industry in India. Founded by Mr. I.K. Ghai in 1945, the Group currently owns and manages Baskin Robbins India, The Brooklyn Creamery, The InterContinental Hotel on Marine Drive, Mayfair Banquets, and Zaffran- a chain of modern Indian dining restaurants- amongst other sub-brands.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/BR-images/bg 30.webp" class="slide d-block w-100" alt="BRimage">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Who We Are!</h2>
+          <p>We may have started out in North America, but today, Baskin Robbins is present in over 50 countries around the world, with almost 7000 stores worldwide. You might be pleasantly surprised to find us in places you never expected!
+            Baskin Robbins is one of the world’s largest ice cream chains globally. Our exciting menu with includes universal favorites like the delicious Mississippi Mud and Mint Milk Chocolate along with local favorite flavors like Honey Nut Crunch and Alphonso Mango.
+            
+            No matter where you go, you will find unparalleled quality and variety in every Baskin Robbins store.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/BR-images/bg 40.webp" class="slide d-block w-100" alt="BRimage">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>We Make People Happy</h2>
+          <p>#YourHappyPlace.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousal ends here -->
+
+  
+            <!-- menu starts here -->
+              <div class="container-fluid">
+                <h1 class="text-center" id="new">Newly Launched</h1>
+                <div class="row">
+
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card p-2 border-warning text-center">
+                    <img src="/BR-images/bg-1.jpg" class="card-img-top" alt="#YourHappyPlace.">
+                    <h5>Variety Pack</h5>
+                    <p>#YourHappyPlace.</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card p-2 border-warning text-center">
+                    <img src="/BR-images/bg-2.jpg" class="card-img-top" alt="#YourHappyPlace.">
+                    <h5> Ice Cream Rocks</h5>
+                    <p>#YourHappyPlace.</p>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card p-2 border-warning text-center">
+                    <img src="/BR-images/bg-3.jpg" class="card-img-top" alt="#YourHappyPlace.">
+                    <h5>Delight Sundae</h5>
+                    <p>#YourHappyPlace.</p>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card p-2 border-warning text-center">
+                    <img src="/BR-images/bg-4.jpg" class="card-img-top" alt="#YourHappyPlace.">
+                    <h5>Fairy Tales Sundaes</h5>
+                    <p>#YourHappyPlace.</p>
+                  </div>
+                </div>
+  
+                  <!-- 2ndline -->
+                <h1 class="text-center"id="scoops">Scoops</h1>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="card  p-2 border-warning m-2 text-center">
+                      <img src="/BR-images/scoop 1.jpg" class="card-img-top"style="height:20rem" alt="#YourHappyPlace.">
+                      <h5>Honey Nut Crunch Ice cream</h5>
+                      <p>#YourHappyPlace.</p>
+                      <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="card p-2 border-warning m-2 text-center">
+                      <img src="/BR-images/scoop 2.jpg" class="card-img-top"style="height:20rem" alt="#YourHappyPlace.">
+                      <h5>Caramel Milk Cake ice cream</h5>
+                      <p>#YourHappyPlace.</p>
+                      <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="card p-2 border-warning m-2 text-center">
+                      <img src="/BR-images/scoop 3.jpg" class="card-img-top"style="height:20rem" alt="#YourHappyPlace.">
+                      <h5>Dutch Chocolate Ice cream</h5>
+                      <p>#YourHappyPlace.</p>
+                      <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+
+                  <!-- 3rdline -->
+                  <h1 class="text-center" id="Sundaes">Sundaes</h1>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="card  p-2 border-warning m-2 text-center">
+                      <img src="/BR-images/sundae 1.webp" class="card-img-top"style="height:25rem" alt="#YourHappyPlace.">
+                      <h5>Nutty Professor</h5>
+                      <p>#YourHappyPlace.</p>
+                      <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="card p-2 border-warning m-2 text-center">
+                      <img src="/BR-images/sundae 2.jpg" class="card-img-top"style="height:25rem" alt="#YourHappyPlace.">
+                      <h5>Cookie Sundaes</h5>
+                      <p>#YourHappyPlace.</p>
+                      <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="card p-2 border-warning m-2 text-center">
+                      <img src="/BR-images/sundae 4.jpg" class="card-img-top"style="height:25rem" alt="#YourHappyPlace.">
+                      <h5>Thunder Hot Fudge</h5>
+                      <p>#YourHappyPlace.</p>
+                      <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                  <!-- 4th line -->
+                  <h1 class="text-center" id="Shakes">Drinks (Beverages)</h1>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="card  p-2 border-warning m-2 text-center">
+                      <img src="/BR-images/shake new1.avif" class="card-img-top"style="height:25rem" alt="#YourHappyPlace.">
+                      <h5>Cookie Crumble 'N cream Thickshake</h5>
+                      <p>#YourHappyPlace.</p>
+                      <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="card p-2 border-warning m-2 text-center">
+                      <img src="/BR-images/shake new2.webp" class="card-img-top"style="height:25rem" alt="#YourHappyPlace.">
+                      <h5>Cotton Candy and Marshmallows Thickshake</h5>
+                      <p>#YourHappyPlace.</p>
+                      <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="card p-2 border-warning m-2 text-center">
+                      <img src="/BR-images/shake new3.avif" class="card-img-top"style="height:25rem" alt="#YourHappyPlace.">
+                      <h5>Cafe Mocha Super-Duper Thickshake</h5>
+                      <p>#YourHappyPlace.</p>
+                      <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+<!-- Menu finishes here -->
+
+<!-- Footer starts here -->
+<footer>
+  <div class="row">
+    <h1 class="text-center" id="location">Location</h1>
+    <div class="col-6 px-4">
+      <h2>Baskin-Robbins</h2>
+      <h5>Bangalore</h5>
+      <h5>Kerala</h5>
+      <h5>Hyderabad</h5>
+      <h5>Pune</h5>
+      <p>Tel:9048102030</p>
+      <p>Baskinrobbins@gmail.com</p>
+      <p>www.Baskinrobbins.com </p>
+    </div>
+    <div class="map col-6" >
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5637448048774!2d77.58889117507805!3d13.063417587260439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae192f7e15932b%3A0xc27c121cdfbb81!2sBaskin%20Robbins!5e0!3m2!1sen!2sin!4v1697170045100!5m2!1sen!2sin" width="400" height="250" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+.navbar
+{
+    height: 100px;
+    background-color:#f05097;
+    color: brown;
+}
+.navbar img
+{
+    height: 40px;
+}
+img.slide
+{
+    height: 720px;
+}
+.nav-link
+{
+    color:#fff;
+    font-size: larger;
+}
+.btn
+{
+    color:#402021;
+    background-color: #DE5B9E;
+}
+footer .row
+{
+ background:url(/BR-images/bg\ 30.webp);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding-left: 40px;
+}
+footer h5
+{
+color:#fff;
+}
+footer h1 
+{
+    color:#f6d1d1;
+}
+footer h2
+{
+    color: #fff;
+}
+footer p
+{
+color: #fff;
+}
+@media(width<850px)
+{
+    footer .map
+    {
+display: none;
+    }
+}
